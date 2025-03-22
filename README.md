@@ -4,7 +4,10 @@ This respository includes codes and datasets for paper "Causal-oriented represen
 A causal-oriented representation learning predictor was developed to accurately make multi-step-ahead predictions of a time series and effectively infer the causal dependencies of a target variable by combining dynamic causation and spatiotemporal information (STI) transformation.
 
 ## Data  availability
-- The datasets can be downloaded here.
+- The real world datasets can be downloaded here.
+- The Lorenz 96 dataset can be generated using the function `` in `data_process/lorenz96.py`.
+- The raw DREAM4 dataset can be generated from `InSilicoSize50-Yeast1` of DREAM_Challenges in the software `GeneNetWeaver`. The parameter settings are provided in Supplementary Section 6.
+- The power grid dataset can be generated using the code from the paper "Higher-order Granger reservoir computing: simultaneously achieving scalable complex structures inference and accurate dynamics prediction". The net for the system used to generate the dataset is in the `data_files/power_grid`. The parameter settings are provided in Supplementary Section 6.
 
 
 ## Environment requirements
