@@ -18,6 +18,7 @@ A causal-oriented representation learning predictor was developed to accurately 
 - scipy==1.15.1
 
 ## Training: making predictions and interpreting causal representations
-- we release the sample training codes and predicting codes corresponding to the Lorenz 96 dataset, which is located at `data_files/lorenz96/`. The script `train2.py` is used for training and the script `all_LRP.py` is used for interpreting the learned causal representations of trained model by `train2.py`.
+- we release the sample training codes and predicting codes corresponding to the Lorenz 96 dataset, which should be generated 
+ and saved at `data_files/lorenz96/` in advance. The script `train2.py` is used for training and the script `all_LRP.py` is used for interpreting the learned causal representations of trained model by `train2.py`.
 - For simulated datasets, the script `test_all_data.py` is used for evaluation after training the model.
 
