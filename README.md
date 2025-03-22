@@ -5,9 +5,9 @@ A causal-oriented representation learning predictor was developed to accurately 
 
 ## Data  availability
 - The real world datasets can be downloaded here.
-- The Lorenz 96 dataset can be generated using the function `get_L96_func` in `data_process/lorenz96.py`.
+- The Lorenz 96 dataset can be generated using the function `get_L96_func` in `data_process/lorenz96.py`. The parameter settings are provided in Supplementary Section 6.
 - The raw DREAM4 dataset can be generated from `InSilicoSize50-Yeast1` of DREAM_Challenges in the software `GeneNetWeaver`. The parameter settings are provided in Supplementary Section 6.
-- The power grid dataset can be generated using the code from the paper "Higher-order Granger reservoir computing: simultaneously achieving scalable complex structures inference and accurate dynamics prediction". The net for the system used to generate the dataset is in the `data_files/power_grid`. The parameter settings are provided in Supplementary Section 6.
+- The power grid dataset can be generated using the code from the paper "Higher-order Granger reservoir computing: simultaneously achieving scalable complex structures inference and accurate dynamics prediction". The net for the system used to generate the dataset in this study is located at `data_files/power_grid`. The parameter settings are provided in Supplementary Section 6.
 
 
 ## Environment requirements
@@ -19,6 +19,6 @@ A causal-oriented representation learning predictor was developed to accurately 
 
 ## Training: making predictions and interpreting causal representations
 - We release the sample training codes and predicting codes corresponding to the Lorenz 96 dataset, which should be generated 
- and saved at `data_files/lorenz96/` in advance. The script `train2.py` is used for training and the script `all_LRP.py` is used for interpreting the learned causal representations of trained model by `train2.py`.
+ and saved to `data_files/lorenz96/` in advance. The script `train2.py` is used for training and the script `all_LRP.py` is used for interpreting the learned causal representations of trained model by `train2.py`.
 - For simulated datasets, the script `test_all_data.py` is used for evaluation after training the model.
 
